@@ -17,6 +17,10 @@ a {
 
 /*-----------------Topic, Read More, Like, Comments, shortNews, longNews--------------------------*/
 
+.number {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
 .topic {
     padding: 4px 15px;
     color: #ffffff;
@@ -241,7 +245,7 @@ a {
 
 .centerNews .shortNews {
     float: left;
-    margin: 0 31px 35px 0;
+    margin: 0 30px 35px 0;
     background: #ffffff url("img/indonesian.png") no-repeat;
 }
 
@@ -282,44 +286,6 @@ a {
     color: rgba(0, 0, 0, 0.8);
     border-color: rgba(0, 0, 0, 0.7);
 }
-
-/*.centerNews .shortNews .shortFooter a .comment {*/
-    /*float: left;*/
-    /*padding: 6px 17px 6px 40px;*/
-    /*border-radius: 25px;*/
-    /*margin-left: 13px;*/
-    /*background: url("img/comment.png") no-repeat 17px 9px;*/
-    /*color: rgba(0, 0, 0, 0.6);*/
-    /*border: 1px solid rgba(0, 0, 0, 0.3);*/
-    /*font-family: 'Merriweather Sans', sans-serif;*/
-    /*transition: 0.3s;*/
-/*}*/
-
-/*.centerNews .shortNews .shortFooter a .comment:hover {*/
-    /*color: rgba(0, 0, 0, 0.8);*/
-    /*border: 1px solid rgba(0, 0, 0, 0.7);*/
-    /*transition: 0.3s;*/
-/*}*/
-
-.centerNews .shortNews .shortFooter a .comment .number {
-    font-family: 'Merriweather Sans', sans-serif;
-}
-
-/*.centerNews .shortNews .shortFooter a .like {*/
-    /*background: url("img/like.png") no-repeat 8px 10px;*/
-    /*border-radius: 25px;*/
-    /*float: left;*/
-    /*width: 31px;*/
-    /*height: 31px;*/
-    /*border: 1px solid rgba(0, 0, 0, 0.3);*/
-    /*margin-left: 11px;*/
-    /*transition: 0.3s;*/
-/*}*/
-
-/*.centerNews .shortNews .shortFooter a .like:hover {*/
-    /*border: 1px solid rgba(0, 0, 0, 0.7);*/
-    /*transition: 0.3s;*/
-/*}*/
 
 .centerNews .longNews {
     float: left;
@@ -389,7 +355,6 @@ a {
 .centerNews  article:nth-child(5) {
     background: #ffffff url("img/pillars.png") no-repeat -20px -77px;
     margin-right: 0;
-    width: 340px;
 }
 
 .centerNews article:nth-child(5) .topic {
@@ -397,3 +362,225 @@ a {
     padding: 5px 0 4px 12px;
     background-color: #e52a40;
 }
+
+/*-----------------------------bottomNews-------------------------------------*/
+
+.bottomNews .shortNews {
+    float: left;
+    background: url("img/house.png");
+}
+
+.bottomNews .shortNews .topic {
+    background-color: #4183d7;
+    width: 125px;
+    padding: 5px 0 4px 9px;
+    margin: 183px 0 0 36px;
+}
+
+.bottomNews .shortNews .shortH3 {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 16px 0 0 36px;
+}
+
+.bottomNews .shortNews .shortFooter {
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    margin-top: 69px;
+    padding: 21px 0 0 36px;
+}
+
+.bottomNews .shortNews .shortFooter .readMore {
+    float: left;
+}
+
+.bottomNews .shortNews .shortFooter .comment {
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: url("img/commentWhite.png") no-repeat 17px 9px;
+}
+
+.bottomNews .shortNews .shortFooter .comment:hover {
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.bottomNews .shortNews .shortFooter .like {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: url("img/likeWhite.png") no-repeat 8px 10px;
+}
+
+.bottomNews .shortNews .shortFooter .like:hover {
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.bottomNews .longNews {
+    float: left;
+    margin-left: 31px;
+    color: #38383a;
+    overflow: hidden;
+}
+
+.bottomNews .longNews .newestPost .headerPost h3 {
+    font-size: 12px;
+    margin: 37px 0 0 38px;
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.bottomNews .longNews .newestPost .longPost {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    height: 179px;
+    color: #38383a;
+    transition: 0.3s;
+}
+
+.bottomNews .longNews .newestPost .longPost:hover {
+    background: #ece6e6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bottomNews .longNews .newestPost .longPost img {
+    width: 202px;
+    height: 146px;
+    float: right;
+    margin: 18px 31px 0 35px;
+}
+
+.bottomNews .longNews .newestPost .longPost h2 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    margin: 20px 0 0 38px;
+    letter-spacing: 2px;
+}
+
+.bottomNews .longNews .newestPost .longPost h3 {
+    margin: 19px 0 0 38px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.bottomNews .longNews .newestPost .longPost p {
+    margin: 9px 0 0 38px;
+    color: #656565;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.bottomNews .longNews .newestPost .shortPost:nth-child(3) {
+    height: 76px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.bottomNews .longNews .newestPost .shortPost h2 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    margin: 30px 0 0 38px;
+    letter-spacing: 2px;
+    float: left;
+}
+
+.bottomNews .longNews .newestPost .shortPost p {
+    float: left;
+    margin: 27px 0 0 12px;
+    font-weight: 600;
+}
+
+.bottomNews .longNews .newestPost .shortPost:nth-child(4) {
+    height: 76px;
+    transition: 0.3s;
+}
+
+.bottomNews .longNews .newestPost .shortPost:nth-child(4) p {
+    margin-left: 35px;
+}
+
+.bottomNews .longNews .newestPost .shortPost:hover {
+    background: #ece6e6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.loadMore {
+    border-radius: 5px;
+    background-color: rgba(56, 56, 58, 0.85);
+    width: 100%;
+    height: 67px;
+    margin-top: 35px;
+    padding-top: 23px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.loadMore:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgb(59, 59, 61);
+}
+
+.loadMore p {
+    font-family: "Merriweather Sans", sans-serif;
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    width: 135px;
+    margin: 0 auto;
+}
+
+.loadMore p::before {
+    content: url("img/arrow.png");
+    position: relative;
+    top: 3px;
+    left: -20px;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.footer .address {
+    font-style: normal;
+    color: #8e8e8e;
+    display: inline-block;
+}
+
+.footer .social {
+    display: inline-block;
+    margin-left: 62.7%;
+}
+
+.footer .social img {
+    margin-right: 30px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.footer .social img:last-child {
+    margin-right: 0;
+}
+
+.footer .social img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/*------------------------Media--------------------------*/
+
+@media all and (max-width: 1350px) {
+
+}
+
+
