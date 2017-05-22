@@ -636,5 +636,117 @@ a {
     }
 }
 
+@media all and (max-width: 750px) {
+    .wrapper {
+        max-width: 450px;
+    }
+
+    .headerTop {
+        margin: 0 0 24px;
+        height: 120px;
+    }
+
+    .headerTop h1 {
+        margin-left: 180px;
+    }
+
+    .headerTop nav {
+        width: 450px;
+        padding: 23px 34px;
+        margin: 25px 0;
+    }
+
+    .headerTop nav ul li a {
+        margin-right: 42px;
+    }
+
+    .topNews {
+        padding: 50px 75px 0 46px;
+        height: 550px;
+        margin-bottom: 25px;
+    }
+
+    .topNews .lineNews a .line {
+        padding: 17px 10px 10px 10px;
+        width: 112px;
+    }
+
+    .topNews .lineNews a .line h3 {
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .topNews .lineNews a .line p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .topNews .lineNews a:last-child .line {
+        width: 114px;
+    }
+
+    .centerNews .shortNews,
+    .centerNews .longNews,
+    .bottomNews .shortNews {
+        margin: 15px 54px;
+    }
+
+    .bottomNews .longNews {
+        width: 450px;
+    }
+
+    .bottomNews .longNews .newestPost .headerPost h3 {
+        margin: 37px 0 0 170px;
+    }
+
+    .bottomNews .longNews .newestPost .longPost h2 {
+        margin: 15px 0 0 193px;
+    }
+
+    .bottomNews .longNews .newestPost .longPost h3 {
+        margin: 12px 0 0 20px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .bottomNews .longNews .newestPost .longPost p {
+        margin: 12px 0 0 20px;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .bottomNews .longNews .newestPost .longPost img {
+        width: 160px;
+        height: 122px;
+        margin: 43px 16px 0 18px;
+    }
+
+    .bottomNews .longNews .newestPost .shortPost h2 {
+        margin: 15px 0 0 187px;
+    }
+
+    .bottomNews .longNews .newestPost .shortPost p {
+        margin: 10px 0 0 14px;
+    }
+
+    .bottomNews .longNews .newestPost .shortPost:nth-child(4) h2 {
+        margin: 15px 0 0 193px;
+    }
+
+    .bottomNews .longNews .newestPost .shortPost:nth-child(4) p {
+        margin-left: 90px;
+    }
+
+    .footer .social {
+        margin-left: 24.8%;
+    }
+
+    .footer .social img {
+        margin-right: 8px;
+    }
+}
 
 
