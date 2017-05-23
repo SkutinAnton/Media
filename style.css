@@ -636,7 +636,7 @@ a {
     }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 755px) {
     .wrapper {
         max-width: 450px;
     }
