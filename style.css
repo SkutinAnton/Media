@@ -8,8 +8,8 @@
 }
 
 body {
-    background-color: rgb(46, 46, 48);
-    /*добавить бесшовный бэкграунд*/
+    background: url(img/fone.png) 0 0 repeat;
+
 }
 
 a {
@@ -559,21 +559,22 @@ a {
 
 .footer .social {
     display: inline-block;
-    margin-left: 62.7%;
+    margin-left: 63.5%;
 }
 
-.footer .social img {
+.footer .social i {
+    color: silver;
     margin-right: 30px;
     opacity: 0.5;
     transition: 0.3s;
 }
 
-.footer .social img:last-child {
+.footer .social i:last-child {
     margin-right: 0;
 }
 
-.footer .social img:hover {
-    opacity: 0.8;
+.footer .social i:hover {
+    opacity: 0.9;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -742,7 +743,7 @@ a {
     }
 
     .footer .social {
-        margin-left: 24.8%;
+        margin-left: 12%;
     }
 
     .footer .social img {
